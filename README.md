@@ -116,15 +116,15 @@ It's possible to build this application on Windows using MSYS2.
     ```sh
     pacman -S --needed \
       mingw-w64-ucrt-x86_64-toolchain \
-      mingw-w64-ucrt-x86_64-gjs \
+      mingw-w64-ucrt-x86_64-gobject-introspection \
       mingw-w64-ucrt-x86_64-gtk4 \
       mingw-w64-ucrt-x86_64-libadwaita \
-      mingw-w64-ucrt-x86_64-webkitgtk-6.0 \
+      mingw-w64-ucrt-x86_64-webkitgtk4 \
       mingw-w64-ucrt-x86_64-meson \
       mingw-w64-ucrt-x86_64-ninja \
       mingw-w64-ucrt-x86_64-pkg-config \
       mingw-w64-ucrt-x86_64-gettext \
-      mingw-w64-ucrt-x86_64-glib2-devel
+      mingw-w64-ucrt-x86_64-glib2
     ```
 
 3.  **Clone the repository**.
